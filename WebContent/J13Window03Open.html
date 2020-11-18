@@ -22,7 +22,7 @@
         적용되지 않는다.
         */
     }
-
+    
     //open()함수가 반환하는 윈도우객체를 저장하기위한 전역변수
     var winObj1;
 
@@ -58,6 +58,9 @@
         var topVar = s_height/2 - 400/2;
         window.open("./pages/popup01.html","popup",
             "width=500, height=500, left="+leftVar+",top="+topVar);
+    }
+    function openChild1(){
+        window.open("./pages/openChild1st.html","child1","width=300,height=300,left=0,top=0");
     }
     </script>
 </head>
